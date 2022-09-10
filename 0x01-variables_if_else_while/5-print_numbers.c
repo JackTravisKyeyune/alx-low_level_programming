@@ -2,16 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - Print all single digit numbers
- *
+ * Main - Entry point
+ * Description - printing single digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	char c = '0';
 
-	for (i = 0; i < 10; i++)
-	printf("%i", i);
+	while (c <= '9')
+	{
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 
 	return (0);
