@@ -1,21 +1,21 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
+
 /**
- * Main - Entry point
- * Description - printing single digit numbers
+ * main - Prints base 10 numbers
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = '0';
+char num = '0';
 
-	while (c <= '9')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
-
-	return (0);
+while (num <= '9')
+{
+putchar(num);
+num++;
+}
+putchar('\n');
+return (0);
 }
