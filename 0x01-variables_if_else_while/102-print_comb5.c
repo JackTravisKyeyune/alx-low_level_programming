@@ -24,6 +24,7 @@ c = 0;
 while (c < 10)
 {
 if (!(f == c && e == d))
+{
 putchar('0' + f);
 putchar('0' + e);
 putchar(' ');
@@ -39,7 +40,7 @@ c++;
 }
 d++;
 }
-e++
+e++;
 }
 f++;
 }
