@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_product - prints the times table n starting with 0
- * @n: number of the times table
+ * print_product - prints the product n starting with 0
+ * @n: number of the product
  * if greater than 15 or less than 0, return error
  */
 void print_product(int n)

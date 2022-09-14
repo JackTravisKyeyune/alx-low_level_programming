@@ -12,10 +12,11 @@ int main(void)
 	a = 1;
 	b = 2;
 	c = 3;
+	d = 4;
 	
 	printf("%ld, ", a);
 	printf("%ld, ", b);
-	for (c = 0; c < 50; c++)
+	for (d = 4; d < 50; d++)
 	{
 		printf("%ld, ", c);
 		a = b;
