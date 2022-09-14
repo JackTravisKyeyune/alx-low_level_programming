@@ -2,7 +2,7 @@
 /**
  * _abs - Returns absolute value ofgiven number
  * @n: input number as an integer
- * Retun: 0
+ * Return: Absolute value of n
  */
 int _abs(int n)
 {
