@@ -13,10 +13,10 @@ int main(void)
 	b = 2;
 	c = 3;
 	d = 4;
-	
+
 	printf("%ld, ", a);
 	printf("%ld, ", b);
-	for (d = 4; d < 50; d++)
+	for (d = 4; d < 49; d++)
 	{
 		printf("%ld, ", c);
 		a = b;
