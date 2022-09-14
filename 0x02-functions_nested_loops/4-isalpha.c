@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- *_isapha - show letter if the input is c
- * letter another cases, shows 0
+ * _isalpha - show letter if the input is c
+ * Description: show letter of c
  * @c: int ascii table number
- * Returns: 0
+ * Return: Always 0 (success)
  */
 int _isalpha(int c)
 {
