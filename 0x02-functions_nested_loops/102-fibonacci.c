@@ -12,8 +12,7 @@ int main(void)
 	a = 1;
 	b = 2;
 	c = 3;
-	d = 0;
-
+	
 	printf("%ld, ", a);
 	printf("%ld, ", b);
 	for (c = 0; c < 50; c++)
