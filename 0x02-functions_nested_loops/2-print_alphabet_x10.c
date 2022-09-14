@@ -1,19 +1,17 @@
 #include "main.h"
 /**
-* print_alphabet_10x - print alphabet 10x folowed by new line
-*
+* print_alphabet_10x - print alphabet 10 times
 * Return: Always 0
 */
 void print_alphabet_x10(void)
 {
-char n;
-char i;
-for (i = 0; i < 10; i++)
+int i, n;
+for (i = 0; i < 9; i++)
 {
-for (n = 'a'; n <= 'z'; n++)
+for (n = 97; n <= 122; n++)
 {
 _putchar(n);
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
