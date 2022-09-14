@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * _abs - Returns absolute value ofgiven number
- * @n: int
- * Retun: int absolute value
+ * @n: input number as an integer
+ * Retun: 0
  */
 int _abs(int n)
 {
