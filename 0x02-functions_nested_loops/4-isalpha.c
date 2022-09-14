@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
- * _isapha - show 1 if the input is c
+ *_isapha - show 1 if the input is c
  * letter another cases, shows 0
- * @c: Character to check
- *
- * Returns: 1 for letters, 0 for otherwise
+ * @c: int ascii table number
+ * Returns: int 1 if c is alpha, else 0
  */
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || ((c >= 'A' && c <= 'Z'));
-	{
-	return (1);
-	}
-	else
-	return (0);
+	if ((c >= 97 && c <= 122) || ((c >= 65 && c <= 95));
+			return (1);
+		return (0);
 }
