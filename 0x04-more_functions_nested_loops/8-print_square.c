@@ -3,14 +3,13 @@
 /**
  * print_square - function to print a square
  * @size: number to be printed
- * Return (0);
  */
 void print_square(int size)
 {
 	int i, j;
 
 	if (size <= 0)
-		_putchar(''\n');
+		_putchar('\n');
 
 	for (i = 0; i < size; i++)
 	{
