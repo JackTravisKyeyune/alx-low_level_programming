@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - entry point
- * @avoid: no arguments
+ * main - entry block
+ * @void: no arguments
  * Return: 0 Always
  */
 int main(void)
@@ -21,9 +21,9 @@ int main(void)
 			{
 				printf("Fizz ");
 			}
-			else 
+			else
 			{
-				printf (%d ", i);
+				printf("%d ", i);
 			}
 	printf("Buzz");
 	printf("\n");
