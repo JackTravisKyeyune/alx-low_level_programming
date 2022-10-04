@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 	aout = malloc((c + 1) * sizeof(char));
 	if (aout == NULL)
 	{
-		free(aout)
+		free(aout);
 		return (NULL);
 	}
 	for (i = j = ia = 0; ia < c; j++, ia++)
