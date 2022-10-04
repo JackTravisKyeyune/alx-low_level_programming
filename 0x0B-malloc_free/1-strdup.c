@@ -11,13 +11,12 @@ char *_strdup(char *str)
 {
 	char *alloc_mem;
 	unsigned int i;
+	unsigned int length_of_string = 0;
+	
+	if (str == NULL)
+		return ('\0');
 
-	unsigned int length of string = 0
-
-		if (str == NULL)
-			return ('\0');
-
-	while (*(str + length of string) != '\0')
+	while (*(str + length_of_string) != '\0')
 		length_of_string++;
 	length_of_string++;
 	alloc_mem = malloc(sizeof(*str) * length_of_string);
