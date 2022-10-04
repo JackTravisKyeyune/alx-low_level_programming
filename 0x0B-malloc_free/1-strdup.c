@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * _strdup - copies a string to new allocated space in memory
@@ -10,6 +11,7 @@ char *_strdup(char *str)
 {
 	char *alloc_mem;
 	unsigned int i;
+
 	unsigned int length of string = 0
 
 		if (str == NULL)
